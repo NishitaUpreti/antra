@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #3e3b6d;  /* Deep violet background */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.about {
+    background-color: #fff;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.about h2 {
+    color: #3e3b6d;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666;
+}
+.services {
+    background-color: #fff;
+    padding: 3rem 0;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services h2 {
+    color: #3e3b6d;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.service-item {
+    width: 45%;
+}
+
+.service-item h3 {
+    font-size: 1.8rem;
+    color: #3e3b6d;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.service-item ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.service-item ul li {
+    color: #555;
+}
+
+.service-item .price {
+    font-weight: bold;
+    color: #3e3b6d;
+}
+footer {
+    background-color: #3e3b6d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+    .service-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
+.detail{
+    color: darkblue;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Anika Makeover</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you. Whether it's a question or just a chat, feel free to reach out!</p>
+            
+            <div class="contact-info">
+                <h3>Contact Details:</h3>
+                <ul>
+                    <li>Email: <a href="mailto:info@anikamakeover.com">info@anikamakeover.com</a></li>
+                    <li>Phone: +123 456 7890</li>
+                    <li>Address: 123 Makeup Street, City, Country</li>
+                </ul>
+            </div>
+            
+            <form action="submit-form.php" method="POST" class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message here" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
